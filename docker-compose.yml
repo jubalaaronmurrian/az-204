@@ -4,7 +4,7 @@ services:
   devcontainer:
     image: mcr.microsoft.com/devcontainers/dotnet:1-6.0
     volumes:
-      - ./:/workspaces:cached
+      - ./:/az-204:cached
     network_mode: service:azuresqledge
     command: sleep infinity
   azuresqledge:

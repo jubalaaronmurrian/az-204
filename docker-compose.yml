@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/dotnet:1-6.0
+    volumes:
+      - ./:/workspaces:cached
+    network_mode: service:azuresqledge
+    command: sleep infinity
+  azuresqledge:
+      networks:
+        - sqlserver
+      image: jubalmurrian/azuresqledge:latest
+      restart: unless-stopped
+      environment:
+        - ACCEPT_EULA=1
+        - MSSQL_SA_PASSWORD=4a8c1B798E
+      ports:
+        - "1433:1433"
+networks:
+  sqlserver:
+    external: true

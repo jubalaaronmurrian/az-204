@@ -1,3 +1,5 @@
+Username: jubal.murrian@outlook.com
+
 az login --use-device-code
 
 [

@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   devcontainer:
-    image: mcr.microsoft.com/devcontainers/dotnet:1-6.0
+    image: mcr.microsoft.com/devcontainers/dotnet:1-8.0
     volumes:
       - ./:/workspaces:cached
     network_mode: service:azuresqledge

@@ -1,0 +1,8 @@
+{
+    "azureFunctions.deploySubpath": "AZ-204: Implement Azure Functions/Azure Function Application/bin/Release/net8.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectSubpath": "AZ-204: Implement Azure Functions/Azure Function Application",
+    "azureFunctions.preDeployTask": "publish (functions)"
+}

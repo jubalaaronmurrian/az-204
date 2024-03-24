@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "Azure_Function_Application": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7289",
-      "launchBrowser": false
-    }
-  }
-}

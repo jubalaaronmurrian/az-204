@@ -3,5 +3,8 @@
 		{
 			"path": "./az-204"
 		}
-	]
+	],
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	}
 }
